@@ -4,7 +4,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Belie Joseph Madriaga's Portfolio</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/mixins/_grid.scss" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -24,23 +23,24 @@
         </header>
 
         <main>
-            <section id="about">
+            <section id="about" class="portfolio-section">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-8">
                             <h1>Belie Joseph Madriaga</h1>
-                            <p class="bio">I am just a guy that loves computers</p>
+                            <p class="tagline">"Be at peace."</p>
+                            <p class="bio">Hello reader, My hobbies are playing Video Games, Drawing, and Physical Sports. I am just a guy that loves computers.</p>
                             <a href="#projects" class="custom-btn primary-btn">View Projects</a>
                             <a href="#contact" class="custom-btn secondary-btn">Contact Me</a>
                         </div>
                         <div class="col-md-4 text-center">
-                            <img src="https://via.placeholder.com/200" alt="Portrait illustration of Belie Joseph Madriaga" class="avatar-img">
+                            <img src="./images/Profile.png" alt="Profile Picture" class="avatar-img">
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="skills">
+            <section id="skills" class="portfolio-section alternate-bg border-bottom-divider">
                 <div class="container">
                     <h2>Skills</h2>
                     <div class="row g-4">
@@ -59,7 +59,7 @@
                         <div class="col-md-4">
                             <div class="custom-card">
                                 <h3>Git</h3>
-                                <p>Version control & Workflows/p>
+                                <p>Version control & Workflows</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -71,22 +71,22 @@
                         <div class="col-md-4">
                             <div class="custom-card">
                                 <h3>SQL</h3>
-                                <p>Database management & Schemaa</p>
+                                <p>Database management & Schemas</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="projects">
+            <section id="projects" class="portfolio-section border-bottom-divider">
                 <div class="container">
                     <h2>Projects</h2>
                     <div class="row g-4">
                         <div class="col-md-6">
                             <article class="project-card">
-                                <img src="https://via.placeholder.com/500x300" alt="Screenshot preview of Municipal Portal interface" class="img-fluid">
+                                <img src="./images/screenshot cabuyao city website.png" alt="Screenshot preview of Municipal Portal interface." class="img-fluid">
                                 <h3>Municipal Web Portal</h3>
-                                <p>An official responsive platform developed for regional public management. Integrated with core SQL schemas</p>
+                                <p>An official responsive platform developed for regional public management. Integrated with core SQL schemas. Through Local Host Only</p>
                                 <a href="#" class="project-link">View Project &rarr;</a>
                             </article>
                         </div>
@@ -94,16 +94,16 @@
                 </div>
             </section>
 
-            <section id="contact">
+            <section id="contact" class="portfolio-section alternate-bg">
                 <div class="container">
-                    <h2>Contatc</h2>
+                    <h2>Contact</h2>
                     <div class="row">
-                        <div class="col-md-6 offset-md-3">
-                            <address class="contaxt-box">
+                        <div class="col-md-8">
+                            <address class="contact-box">
                                 <p>Let's collaborate on your next project. Reach out via email or check my active logs online.</p>
-                                <a href="mailto: beliemadriaga@gmail.com" class="contact-link">Email: beliemadriaga@gmail.com</a>
-                                <a href="htttps://github.com/HakerBeri" target="_blank" rel="noopener" class="contact-link">Github: github.com/HakerBeri</a>
-                                <a href="tel:+639751847681" class="contact-link">Phone: +63 9751847681</a>
+                                <a href="mailto:beliemadriaga@gmail.com" class="contact-link">Email: beliemadriaga1@gmail.com</a>
+                                <a href="https://github.com/HakerBeri" target="_blank" rel="noopener" class="contact-link">Github: github.com/HakerBeri</a>
+                                <a href="tel:+639751847681" class="contact-link">Phone: +63 975 184 7681</a>
                             </address>
                         </div>
                     </div>
@@ -112,9 +112,10 @@
         </main>
 
         <footer>
-            <div class="container d-flex justify-content-between alignt-items-center">
+            <div class="container d-flex justify-content-between align-items-center">
                 <p>&copy; 2026 Belie Joseph Madriaga. All rights reserved.</p>
                 <p>Built with HTML &amp; CSS</p>
             </div>
         </footer>
     </body>
+</html>
